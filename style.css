@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  position: relative;
+  width: 500px;
+  max-width: 50%;
+  margin: 2rem auto;
+  /* background-color: #ccc; */
+  height: 50vh;
+  padding: 1rem;
+  background: linear-gradient(to top, rgb(255, 108, 132), white);
+  border-radius: 2rem;
+  box-shadow: 0 0.1rem 1rem #666;
+}
+section form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+section h2 {
+  color: #000;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  text-align: start;
+  margin: 2rem 2rem 0;
+  font-weight: bolder;
+}
+section form label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+}
+section form label input {
+  width: 60%;
+  padding: 0.7rem 0;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+}
+::placeholder {
+  padding: 0.5rem;
+}
+section form button {
+  padding: 0.7rem;
+  width: 30%;
+  border: none;
+  background-color: orangered;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 2rem;
+  display: block;
+  margin: 2rem auto;
+  box-shadow: 0 0.1rem 0.2rem #333;
+  cursor: pointer;
+}
